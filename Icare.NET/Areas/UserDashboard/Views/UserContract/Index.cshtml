@@ -1,0 +1,102 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/UserDashboard/Views/Shared/_UserLayout.cshtml";
+}
+
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800"></h1>
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Müqavilələrim</h6>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Ad</th>
+                            <th>Ünvan</th>
+                            <th>Ofis</th>
+                            <th>Rolum</th>
+                            <th>Müddəti/İl</th>
+                            <th>Başlanğıc tarixi</th>
+                            <th>Məbləğ</th>
+                            <th>Ödəniş</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>Ad</th>
+                            <th>Ünvan</th>
+                            <th>Ofis</th>
+                            <th>Rolum</th>
+                            <th>Müddəti/İl</th>
+                            <th>Başlanğıc tarixi</th>
+                            <th>Məbləğ</th>
+                            <th>Ödəniş</th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr>
+                            <td><a href="contrackt.html">Vaqif İbrahimov</a></td>
+                            <td>Azadlıq pr. 22</td>
+                            <td>Bakı</td>
+                            <td>Sahibkar</td>
+                            <td>5</td>
+                            <td>2020/07/20</td>
+                            <td>3,800</td>
+                            <td><a href="@Url.Action("Index","UserPayment")">Tarixçə</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="contrackt.html">Samir İbrahimov</a></td>
+                            <td>Heydər Əliyev pr. 122</td>
+                            <td>Quba</td>
+                            <td>Kirayəçi</td>
+                            <td>10</td>
+                            <td>2020/07/20</td>
+                            <td>1700</td>
+                            <td><a href="@Url.Action("Index","UserPayment")">Tarixçə</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="contrackt.html">Ayxan Əliyev</a></td>
+                            <td>Heydər Əliyev pr. 100</td>
+                            <td>Nabran</td>
+                            <td>Kirayəçi</td>
+                            <td>5</td>
+                            <td>2020/08/20</td>
+                            <td>1800</td>
+                            <td><a href="@Url.Action("Index","UserPayment")">Tarixçə</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="contrackt.html">Əliyeva Çinarə</a></td>
+                            <td>Heydər Əliyev pr. 800</td>
+                            <td>Bakı</td>
+                            <td>Sahibkar</td>
+                            <td>7</td>
+                            <td>2020/08/20</td>
+                            <td>4000</td>
+                            <td><a href="@Url.Action("Index","UserPayment")">Tarixçə</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="contrackt.html">Ismayılova Fidan</a></td>
+                            <td>Heydər Əliyev pr. 998</td>
+                            <td>Bakı</td>
+                            <td>Sahibkar</td>
+                            <td>10</td>
+                            <td>2020/08/20</td>
+                            <td>1600</td>
+                            <td><a href="@Url.Action("Index","UserPayment")">Tarixçə</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- /.container-fluid -->

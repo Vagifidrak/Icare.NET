@@ -1,0 +1,38 @@
+.Logo {
+  width: 130px;
+  height: 60px;
+  background: url(../img/icare2.png) no-repeat left center;
+  background-size: contain;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.container-fluid .contractNew{
+
+}
+
+.fa-color {
+    color: #4e73df;
+}
+
+.sonOdeme h3 {
+  padding-left: 100px;
+}
+
+.Istifade {
+  padding-bottom: 30px;
+}
+
+.odenis {
+  cursor: pointer;
+}
+
+.sidebar .nav-item .nav-link .vaqif {
+  padding: 0;
+}
+
+.Kamran {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=style.css.map */

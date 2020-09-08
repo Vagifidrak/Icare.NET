@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1eef2b5a442343c798d186abf267a5e4" Name="Diagram1">
+        <EntityTypeShape EntityType="İcareDBModel.AboutU" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="İcareDBModel.AspNetRole" Width="1.5" PointX="7.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="İcareDBModel.AspNetUserClaim" Width="1.5" PointX="12.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="İcareDBModel.AspNetUserLogin" Width="1.5" PointX="12.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="İcareDBModel.AspNetUser" Width="1.5" PointX="10" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="İcareDBModel.City" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="İcareDBModel.Contact" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="İcareDBModel.ContactMe" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="İcareDBModel.Contract" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="İcareDBModel.Estate" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="İcareDBModel.EstateImage" Width="1.5" PointX="5.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="İcareDBModel.EstateSpesification" Width="1.5" PointX="5.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="İcareDBModel.FAQ" Width="1.5" PointX="2.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="İcareDBModel.Notification" Width="1.5" PointX="4.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="İcareDBModel.OrderHistory" Width="1.5" PointX="10" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="İcareDBModel.OrderItem" Width="1.5" PointX="10" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="İcareDBModel.Order" Width="1.5" PointX="7.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="İcareDBModel.PayType" Width="1.5" PointX="7.75" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="İcareDBModel.Serviceİnfo" Width="1.5" PointX="12.75" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="İcareDBModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="İcareDBModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="İcareDBModel.FK_Estate_Cities" ManuallyRouted="false" />
+        <AssociationConnector Association="İcareDBModel.FK_Contract_Estate" ManuallyRouted="false" />
+        <AssociationConnector Association="İcareDBModel.FK_EstateImage_Estate" ManuallyRouted="false" />
+        <AssociationConnector Association="İcareDBModel.FK_EstateSpesification_Estate" ManuallyRouted="false" />
+        <AssociationConnector Association="İcareDBModel.FK_OrderHistory_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="İcareDBModel.FK_OrderItem_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="İcareDBModel.FK_OrderItem_PayType" ManuallyRouted="false" />
+        <AssociationConnector Association="İcareDBModel.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

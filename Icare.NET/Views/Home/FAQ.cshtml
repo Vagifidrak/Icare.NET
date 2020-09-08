@@ -1,0 +1,121 @@
+﻿
+@{
+    ViewBag.Title = "FAQ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<section class="FAQ mt-4">
+    <div class="container ">
+        <h1>Mütəmadi verilən suallar</h1>
+        <h5>Sualınız nə ilə bağlıdır?</h5>
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h3 class="mb-0">
+                        <button class="btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Icare nədir?
+                        </button>
+                    </h3>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        Xidmətlərimiz kirayəçilərə kirayə ödənişini və digər ödənişləri (kommunal,əyləncə.....) internet vasitəsilə elektron qaydada ödəməyə imkan verir. Bütün əməliyyatlar elektron şəkildə əmlak sahibinin bank hesabına köçürülür. Xidmətimiz əmlak sahibin ödənişini elektron şəkildə əldə etməyə, icarədar ödənişi gecikən zaman silinməz çat vasitəsi ilə xatırlatma göndərməyə imkan verir. Bundan başqa platformamız sahibkar və kirayəçi dəyərəndirmə sisitemi ilə istifadəçilərimizə bir çox fürsətlərdən istifadə etmək imkanını verir
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h3 class="mb-0">
+                        <button class="btn collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            İcarə platformasından istifadə etməyin faydaları nələrdir?
+                        </button>
+                    </h3>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        Onlayn kirayə ödəmək yaxın gələcəkdə ənənəvi üsulların istifadəsini tamamilə azaldacaq. Vaxtınıza qənaət etmək, ağıllı müqavilələr ilə müqavilələrinizi rəsmiləşdirmk, platformanın üstünlüklərindən yararlanmaq sizin üçün əvəzolunmaz olacaq
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h3 class="mb-0">
+                        <button class="btn collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Qiymətləndirmə: İcarə platformasından istifadə haqqı nədir?
+                        </button>
+                    </h3>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        Daha çox məlumat üçün qiymət səhifəmizə(sehife acilsin,izh olunsun muqavile zamanı nece odenish olur falan neqeder) müraciət edin
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h3 class="mb-0">
+                        <button class="btn collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Kirayəçi üçün qeyd addımları nələrdir?
+                        </button>
+                    </h3>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                    <div class="card-body">
+                        Qeydiyyat hissəsində şəxsi məlumatlarınızı daxil edin və sistem təsdiq üçün  sizə bir e-poçt göndərəcəkdir.
+                        Qeydiyyat zamanı yazdığınız paroldan istifadə edərək giriş edin
+                        Şəxsi kabinetinizə daxil olun
+                        Ödənişlərin edilməsi, istifadə edilməsi üçün bank hesabı məlumatlarınızı daxil edin;
+                        Qeydiyyat prosesi başa çatdıqdan sonra əlavə bank hesabları əlavə edilə bilər.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFive">
+                    <h3 class="mb-0">
+                        <button class="btn collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Profil yaratmalıyam?
+                        </button>
+                    </h3>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                    <div class="card-body">
+                        Bəli, Kirayə ödənişini təqdim etmək üçün platformamızda profil yaratmağınız tələb olunur. Profil yaratmaqla ödəniş üçün hesab məlumatlarını yenidən daxil etmədən İcarə ödənişlərini asanlıqla təqdim edə bilərsiz.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingSix">
+                    <h3 class="mb-0">
+                        <button class="btn collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            Taksit sistemi necə baş tutur?
+                        </button>
+                    </h3>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                    <div class="card-body">
+                        İcarə platforması kirayəçilərini hər ay dəyərləndirir və buna uyğun olaraq kirayəçilərin ödənişərdə çətinlik yarandığı zaman onlara müəyyən taksit və güzəşt imkanları verir
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingSeven">
+                    <h3 class="mb-0">
+                        <button class="btn collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            Dəyərləndirmə sistemi nəyə əsasən baş tutur?
+                        </button>
+                    </h3>
+                </div>
+                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                    <div class="card-body">
+                        Dəyərləndirmə sistemi kirayəçinin kira ödənişini gecikdirmədən hər ay vaxtında ödəməsinə görə baş tutur. Buna uyğun olaraq vaxtında ödənişə görə hər ay bonus qazanır və qazandığı bonuslara görə platformamızda təklif olunan fürsətlərdən istifadə etmək şansı qazanır
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="FAQ-Footer">
+            <h5>Axtardığınızı tapa bilmirsiniz?</h5>
+            <a class="btn btn-FAQ ml-5" href="@Url.Action("Contact","Home")">Sorğunuzu göndərin</a>
+        </div>
+    </div>
+</section>

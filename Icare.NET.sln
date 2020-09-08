@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Icare.NET", "Icare.NET\Icare.NET.csproj", "{479E7CDE-80A7-4E3A-8DA7-74F9F16B8EB9}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "IcareNET", "..\IcareNET\IcareNET.sqlproj", "{1E38D4FC-0355-43DD-A89C-F08B12BBD080}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{479E7CDE-80A7-4E3A-8DA7-74F9F16B8EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{479E7CDE-80A7-4E3A-8DA7-74F9F16B8EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{479E7CDE-80A7-4E3A-8DA7-74F9F16B8EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{479E7CDE-80A7-4E3A-8DA7-74F9F16B8EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E38D4FC-0355-43DD-A89C-F08B12BBD080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E38D4FC-0355-43DD-A89C-F08B12BBD080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E38D4FC-0355-43DD-A89C-F08B12BBD080}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1E38D4FC-0355-43DD-A89C-F08B12BBD080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E38D4FC-0355-43DD-A89C-F08B12BBD080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E38D4FC-0355-43DD-A89C-F08B12BBD080}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAB7B5B6-89AA-4E53-B065-246D3335C4D6}
+	EndGlobalSection
+EndGlobal
